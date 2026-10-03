@@ -1,0 +1,6 @@
+{
+  "name": "Liliana Bojanich · Estética Corporal y Facial",
+  "description": "Espacio de estética corporal, facial y bienestar en Morón, Buenos Aires. Depilación láser, criolipólisis, radiofrecuencia, masajes y atención personalizada.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

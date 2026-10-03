@@ -1,0 +1,42 @@
+@import "tailwindcss";
+
+@theme {
+  --color-roseBrand-50: #fdf9fa;
+  --color-roseBrand-100: #f7f0f2;
+  --color-roseBrand-200: #eddfe3;
+  --color-roseBrand-300: #d8bac2;
+  --color-roseBrand-400: #c9a4ad;
+  --color-roseBrand-500: #b88f98;
+  --color-roseBrand-600: #9c737c;
+  --color-roseBrand-700: #865f67;
+  --color-roseBrand-800: #5a3d44;
+  --color-roseBrand-900: #362229;
+  --color-roseBrand-950: #23141a;
+
+  --color-sandNeutral-50: #fcfaf8;
+  --color-sandNeutral-100: #f6f1ec;
+  --color-sandNeutral-200: #ebe3db;
+
+  --font-serif: "Cormorant Garamond", Georgia, serif;
+  --font-sans: "Plus Jakarta Sans", sans-serif;
+}
+
+body {
+  font-family: var(--font-sans);
+  color: #362229;
+  background-color: #fcf9f8;
+  overflow-x: hidden;
+}
+
+.font-editorial {
+  font-family: var(--font-serif);
+}
+
+.soft-blur {
+  backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(12px);
+}
+
+.custom-shadow {
+  box-shadow: 0 10px 30px -10px rgba(184, 143, 152, 0.18);
+}
